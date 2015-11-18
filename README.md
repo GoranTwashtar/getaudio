@@ -1,8 +1,8 @@
 ## AudioToggle
 
-Cordova plugin for switching between speaker and earpiece when playing audio.
+Cordova plugin for get current audio state.
 
-    cordova plugin add https://github.com/alongubkin/audiotoggle.git
+    cordova plugin add https://github.com/GoranTwashtar/getaudio.git
     
 ### Supported Platforms
 
@@ -13,6 +13,4 @@ Cordova plugin for switching between speaker and earpiece when playing audio.
 
 To set the current audio mode, use the `setAudioMode` method:
 
-    AudioToggle.setAudioMode(AudioToggle.SPEAKER);
-    // or
-    AudioToggle.setAudioMode(AudioToggle.EARPIECE);
+    GetAudio.getAudioMode();
