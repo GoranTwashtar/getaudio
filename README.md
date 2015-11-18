@@ -1,4 +1,4 @@
-## AudioToggle
+## GetAudio
 
 Cordova plugin for get current audio state.
 
