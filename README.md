@@ -7,10 +7,9 @@ Cordova plugin for get current audio state.
 ### Supported Platforms
 
 - Android
-- iOS
 
 ### Usage
 
-To set the current audio mode, use the `setAudioMode` method:
+To set the current audio mode for media.play(), use the `getAudioMode` method:
 
     GetAudio.getAudioMode();
