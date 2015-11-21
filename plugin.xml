@@ -12,24 +12,10 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>    
 
-    <js-module src="www/audiotoggle.js" name="AudioToggle">
+    <js-module src="www/audioswitcher.js" name="GetAudio">
         <clobbers target="GetAudio" />
     </js-module>
 	
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-			<feature name="GetAudioPlugin">
-				<param name="ios-package" value="GetAudioPlugin" />
-			</feature>
-        </config-file>
-
-        <header-file src="src/ios/AudioTogglePlugin.h" />		
-        <source-file src="src/ios/AudioTogglePlugin.m" />
-
-        <framework src="AVFoundation.framework" />
-		<framework src="AudioToolbox.framework" />
-    </platform>
-
     <platform name="android">
         <source-file src="src/android/com/twashtar/getaudio/GetAudioPlugin.java" target-dir="src/com/twashtar/getaudio" />
   
